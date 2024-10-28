@@ -1,4 +1,3 @@
-
 let menu 
 let propertys = []
 
@@ -12,7 +11,8 @@ let garage
 do{
     menu = prompt(`Lista de imóveis atuais ${property.lenght}:
     1 - Adicionar novo imóvel
-    2 - Listar imóveis salvos`
+    2 - Listar imóveis salvos
+    3 - Sair`
     )
 
     switch(menu){
