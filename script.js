@@ -28,7 +28,7 @@ do{
             property.bathroom = bathroomQuantity
             property.garage = garage
 
-            propertys = property
+            propertys.push(property)
 
             confirm(`Está tudo certo?
             Proprietário: ${ownerName}
